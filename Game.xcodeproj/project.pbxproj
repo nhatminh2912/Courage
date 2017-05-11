@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193B3B2A1EC453A0008BBC99 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3B291EC453A0008BBC99 /* Move.swift */; };
+		193B3B2C1EC453F1008BBC99 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3B2B1EC453F1008BBC99 /* Board.swift */; };
+		193B3B2E1EC45434008BBC99 /* Courage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3B2D1EC45434008BBC99 /* Courage.swift */; };
+		193B3B301EC45472008BBC99 /* Muriel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3B2F1EC45472008BBC99 /* Muriel.swift */; };
+		193B3B321EC454A1008BBC99 /* Eustace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3B311EC454A1008BBC99 /* Eustace.swift */; };
 		CF14F8311DFFA18B0087ED4A /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = CF14F8301DFFA18B0087ED4A /* box.png */; };
 		CF14F8331DFFA1C90087ED4A /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = CF14F8321DFFA1C90087ED4A /* robot.png */; };
 		CF14F8351DFFA21A0087ED4A /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = CF14F8341DFFA21A0087ED4A /* door.png */; };
@@ -32,6 +37,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193B3B291EC453A0008BBC99 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		193B3B2B1EC453F1008BBC99 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		193B3B2D1EC45434008BBC99 /* Courage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courage.swift; sourceTree = "<group>"; };
+		193B3B2F1EC45472008BBC99 /* Muriel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Muriel.swift; sourceTree = "<group>"; };
+		193B3B311EC454A1008BBC99 /* Eustace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eustace.swift; sourceTree = "<group>"; };
 		CF14F8301DFFA18B0087ED4A /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		CF14F8321DFFA1C90087ED4A /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
 		CF14F8341DFFA21A0087ED4A /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
@@ -92,7 +102,12 @@
 				CF5C463B1DF664740038834B /* AppDelegate.swift */,
 				CF5C463D1DF664740038834B /* ViewController.swift */,
 				CFC3A7691DFEA24500843D0E /* Item.swift */,
+				193B3B2B1EC453F1008BBC99 /* Board.swift */,
+				193B3B2F1EC45472008BBC99 /* Muriel.swift */,
+				193B3B2D1EC45434008BBC99 /* Courage.swift */,
+				193B3B311EC454A1008BBC99 /* Eustace.swift */,
 				CF5C463F1DF664740038834B /* Main.storyboard */,
+				193B3B291EC453A0008BBC99 /* Move.swift */,
 				CF5C46421DF664740038834B /* Assets.xcassets */,
 				CF5C46441DF664740038834B /* LaunchScreen.storyboard */,
 				CF5C46471DF664740038834B /* Info.plist */,
@@ -211,9 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193B3B2E1EC45434008BBC99 /* Courage.swift in Sources */,
+				193B3B2A1EC453A0008BBC99 /* Move.swift in Sources */,
+				193B3B321EC454A1008BBC99 /* Eustace.swift in Sources */,
 				CFC3A76A1DFEA24500843D0E /* Item.swift in Sources */,
+				193B3B2C1EC453F1008BBC99 /* Board.swift in Sources */,
 				CF5C463E1DF664740038834B /* ViewController.swift in Sources */,
 				CF5C463C1DF664740038834B /* AppDelegate.swift in Sources */,
+				193B3B301EC45472008BBC99 /* Muriel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

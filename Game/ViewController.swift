@@ -13,9 +13,8 @@ import AVFoundation
 class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
     var count: Int = 0 // gioi han so box
-    
     var Items: NSMutableArray! // mang? chua' nhung vi tri dc chon. lam` box
-    
+
     var index : Int = -1 // so index cua mang? moves
     
     var moves: [Int] = [] // mang? chua' nhung~ buoc' di chuyen?
@@ -266,6 +265,18 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         phai.tag = 503
         self.view.addSubview(phai)
     }
+    
+    func createMoveArrow(imgName: String, posX: CGFloat, posY: CGFloat)->UIButton{
+        let Button = UIButton()
+        Button.frame = CGRect(x: posX, y: posY, width: 20, height: 20)
+        Button.setImage(UIImage(named: imgName), for: .normal)
+        
+        view.addSubview(Button)
+    
+    }
+    
+    func
+    
     
     func makeArrows()
     {
